@@ -1,2 +1,2 @@
 def prime?(integer)
-  numbers = [2...]
+  numbers = [2...integer.sqrt(integer)]
