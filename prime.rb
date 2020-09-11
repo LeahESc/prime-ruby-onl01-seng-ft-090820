@@ -6,4 +6,10 @@ def prime?(integer)
     true 
   else 
     numbers_array = numbers.a 
-    if numbers_array.find 
+    if numbers_array.find {|factor| integer % factor == 0}
+      false 
+    else 
+      true 
+    end
+  end 
+end
