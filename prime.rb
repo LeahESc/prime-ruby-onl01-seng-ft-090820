@@ -1,5 +1,5 @@
 def prime?(integer)
-  numbers = (2...integer.sqrt(integer))
+  numbers = (2..Integer.sqrt(integer))
   if integer <= 1 
     false 
   elsif integer == 2 || integer == 3 
