@@ -5,7 +5,7 @@ def prime?(integer)
   elsif integer == 2 || integer == 3 
     true 
   else 
-    numbers_array = numbers.a 
+    numbers_array = numbers.to_a 
     if numbers_array.find {|factor| integer % factor == 0}
       false 
     else 
